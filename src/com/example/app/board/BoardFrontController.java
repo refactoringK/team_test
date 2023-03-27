@@ -49,6 +49,8 @@ public class BoardFrontController extends HttpServlet{
 		case "/board/boardUpdateOk.bo":
 			new BoardUpdateOkController().execute(req, resp);
 			break;
+		case "/board/test123":
+			break;
 		}
 	}
 }
